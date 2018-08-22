@@ -13,12 +13,19 @@ def countdown(x):
     while x > 0:
         x = x - 5
         y = y + 1
-    print y
+    print(y)
 
 #print countdown(50)
 
-def example(m)
+def example(m):
     steps = 3 + ((m // 5) *2) + (2 * (1 % ((m % 5)+1)))
     print(steps)
+    # this is essentially a strange way to round up
 
-example(5)
+    '''
+    3 + 2 * math.ceil(n/5.0)
+    ceil function rounds up to nearest int
+    and is thus the solution
+    '''
+
+example(0)
