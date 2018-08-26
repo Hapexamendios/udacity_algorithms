@@ -1,0 +1,11 @@
+Lesson 2: Problem set 1 reflections
+
+What are the advantages and disadvantages of representing a graph as a list of tuples?
+
+The advantages are that it will help us to no longer need to visually chart out 
+all of the nodes on the graph. If there are a large number of nodes, this could
+prove time consuming and would be difficult to visualize, with lots of lines
+crossing one another. However, the biggest benefit I can think of with a graph
+being visually represented, is that it would be more simple to identify whether
+each node was even odd. When represented with tuples, you would need to count the
+ocurrance of each node among all the tuples.
